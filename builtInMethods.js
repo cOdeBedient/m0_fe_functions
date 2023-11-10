@@ -62,3 +62,21 @@ console.log(plus);
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+// The fill() method is called on the nums variable, which stores the array [1, 3, 5, 4, 7, 7]. 
+// Given the argument '9, 1, 3', fill() replaces the elements in nums from index position 1 to
+// index position 3 (not including 3) with 9 and returns the new array.
+// In this example, the return value is [1, 9, 9, 4, 7, 7].
+// The console.log() statement prints the return value of the fill() method to the console.
+var nums = [1, 3, 5, 4, 7, 7];
+var full = nums.fill(9, 1, 3);
+console.log(full);
+
+// The copyWithin() method is called on the veggies variable,
+// which stores the array ["broccoli", "squash", "potatoes", "rutebega"]. 
+// Given the argument '3, 0', copyWithin replaces the element at index 3 with the element at index 0,
+// and returns our new variable, greenEnd, which is assigned to [ 'broccoli', 'squash', 'potatoes', 'broccoli' ].
+// The console.log() statement prints the return value of the copyWithin() method to the console.
+var veggies = ["broccoli", "squash", "potatoes", "rutebega"];
+var greenEnd = veggies.copyWithin(3, 0);
+console.log(greenEnd);
