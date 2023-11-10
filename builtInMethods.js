@@ -39,6 +39,22 @@
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
 
+// The trim() method is called on the saxPlayer variable, which stores the string object "     Pigeon Man  ". 
+// The trim() method removes whitespace before and after the string, and returns a new string without whitespace.
+// In this example, the return value is "Pigeon Man".
+// The console.log() statement prints the return value of the trim() method to the console.
+var saxPlayer = "     Pigeon Man  ";
+console.log(saxPlayer.trim());
+
+// (this may have been a mistake!)
+// The split() method is called on the weirdWords variable, which stores the string object "1 + 2 + 3 + 4 + 5 + 6 + 7". 
+// Given the argument plus, a variable defined as the string " + ", The split(" + ") method searches for the occurrance of
+// the argument " + " within weirdWords, returning an array made up of the strings broken up by instances of the argument. 
+// In this example, the return value is "["1", "2", "3", "4", "5", "6", "7"]".
+// The console.log() statement prints the return value of the trim() method to the console.
+var weirdWords = "1 + 2 + 3 + 4 + 5 + 6 + 7";
+var plus = weirdWords.split(' + ');
+console.log(plus);
 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
