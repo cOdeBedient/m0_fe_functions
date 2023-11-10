@@ -42,10 +42,12 @@ makeFreshPesto();
 
 
 //  EX 4:
-function average(num1, num2) 
-  {
-var sum = num1 + num2;
-    var avg = sum / 2;
+function average(num1, num2){
+  var sum = num1 + num2;
+  var avg = sum / 2;
 
-return avg
+  return avg;
   }
+
+console.log(average(5, 7))
+  // I reformatted some and added a console.log statement.
