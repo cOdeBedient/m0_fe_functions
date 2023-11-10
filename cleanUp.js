@@ -4,14 +4,15 @@
   // Modify the code to make that improvement(s)
   // write a JS comment to explain what you changed, and why
   // make sure the code you submit WORKS - you can run this entire file 
-    // using `node cleanUp.js` or copy and paste into a replit
+  // using `node cleanUp.js` or copy and paste into a replit
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
-
-askForName()
-
+function askForName(){
+  return ("Hello, what is your name?")
+}
+console.log(askForName())
+// I reformatted this, and I used 'return' instead of consol.log in the function as this is best practice I believe.
 
 // EX 2:
 function addThreeNums(first, second, third) {
