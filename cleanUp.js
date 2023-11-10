@@ -12,16 +12,20 @@ function askForName(){
   return ("Hello, what is your name?")
 }
 console.log(askForName())
-// I reformatted this, and I used 'return' instead of consol.log in the function as this is best practice I believe.
+// I reformatted this, and I used 'return' instead of consol.log
+// in the function as this is best practice I believe.
 
 // EX 2:
-function addThreeNums(first, second, third) {
-var sum = first + second + third
+function addThreeNums(num1, num2, num3) {
+var sum = num1 + num2 + num3
 return sum;
       }
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
+console.log(addThreeNums(1, 2, 3));
+console.log(addThreeNums(4, 2, 7));
+// I cahnged the parameter names to be more descriptive, and added 'console.log()'
+// statements at the end so the sums actually print.
+
 
 
 // EX 3:
